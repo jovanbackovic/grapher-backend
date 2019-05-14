@@ -28,7 +28,7 @@ class DiceRollingForm extends React.Component {
             <div className="ui segment">
                 <form className="ui form" onSubmit={this.onFormSubmit}>
                     <div className="field">
-                        <label>Number of dices</label>
+                        <label>Number of dice</label>
                         <input type="number" value={this.state.dices} 
                             name="dices" onChange={this.onInputChange} disabled={loading}/>
                     </div>

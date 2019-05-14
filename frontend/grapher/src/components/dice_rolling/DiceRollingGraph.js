@@ -28,7 +28,7 @@ class DiceRollingGraph extends React.PureComponent {
                             <YAxis />
                             <Tooltip />
                             <Legend />
-                            <Bar dataKey="y" name="Number of rolls" fill="#8884d8" />
+                            <Bar dataKey="y" name="Sum result" fill="#8884d8" />
                         </BarChart>
                     </ResponsiveContainer>
                     {this.props.loading ? loader : ""}
